@@ -8,10 +8,5 @@
             templateUrl: 'app/views/person.html',
             controller: "PersonCtrl"
         })
-        .when("/person/:personId", {
-            templateUrl: 'app/views/persondetail.html',
-            controller: "PersonAddressCtrl"
-        })
-        .otherwise({ redirectTo: "/person" })
     });
 }());
