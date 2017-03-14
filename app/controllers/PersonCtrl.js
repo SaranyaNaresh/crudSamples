@@ -1,6 +1,6 @@
 'use strict';
 
-/*var PersonCtrl = angular.module('addressBookApp', []);
+/*var PersonCtrl = angular.module('accountSectorApp', []);
 
 PersonCtrl.controller('PersonCtrl',['$scope', '$routeParams', 
 	function($scope, $routeParams){
@@ -9,7 +9,7 @@ PersonCtrl.controller('PersonCtrl',['$scope', '$routeParams',
 */
 
 (function () {
-    var addressBookApp = angular.module("addressBookApp");
+    var accountSectorApp = angular.module("accountSectorApp");
 
     var PersonCtrl = function ($scope, $http)
     {
@@ -90,5 +90,5 @@ PersonCtrl.controller('PersonCtrl',['$scope', '$routeParams',
         };
         //end update person
     }
-    addressBookApp.controller('PersonCtrl', PersonCtrl);
+    accountSectorApp.controller('PersonCtrl', PersonCtrl);
 }());

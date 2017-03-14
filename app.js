@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-    var app = angular.module("addressBookApp", ['ngRoute', 'angular-loading-bar']);
+    var app = angular.module("accountSectorApp", ['ngRoute', 'angular-loading-bar']);
     app.config(function ($routeProvider) {
         $routeProvider
         .when("/person", {
